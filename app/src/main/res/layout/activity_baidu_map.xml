@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFAA0000"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iv_BaiduMap_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="百度地图"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/iv_mLocation"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_mlocation"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+</LinearLayout>

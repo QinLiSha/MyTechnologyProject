@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFAA0000"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iv_NewsShow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新闻信息"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/tv_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_show_menu"
+            android:text="跟帖数"
+            android:textColor="@color/white"
+            android:background="@drawable/tipe_shape"/>
+        <ImageView
+            android:id="@+id/iv_show_menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/news_menu"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/pb_progressBar"
+        android:layout_width="match_parent"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_gravity="center"
+        android:layout_height="5dp"
+        android:indeterminate="false"/>
+    <WebView
+        android:id="@+id/myWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+</LinearLayout>

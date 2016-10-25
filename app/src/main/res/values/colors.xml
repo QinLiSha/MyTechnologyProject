@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#0000</color>
+
+    <!-- 常用颜色 -->
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <color name="clear_arc_color">#FFFF8C00</color>
+
+    <!-- 电量进度条背景色 -->
+    <color name="battery_progressbar_bg">#FFFF8C00</color>
+
+    <!-- 电量进度条色 -->
+    <color name="battery_speed">#FF00AA00</color>
+    <color name="file_number_color">#FFFF8C00</color>
+    <color name="file_size_color">#FFFF8C00</color>
+
+    <!-- 饼形图手机空间颜色 -->
+    <color name="piechar_phone">#FF000099</color>
+    <!-- 饼形图SD空间颜色 -->
+    <color name="piechar_sdcard">#FF00AA00</color>
+    <!-- 饼形图底色 -->
+    <color name="piechar_base">#FFFF8C00</color>
+</resources>

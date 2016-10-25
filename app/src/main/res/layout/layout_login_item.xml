@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_loginTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="登录时间"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_loginAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="登录地址"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_loginDevice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="登录设备"
+        android:textSize="18sp"/>
+
+</LinearLayout>

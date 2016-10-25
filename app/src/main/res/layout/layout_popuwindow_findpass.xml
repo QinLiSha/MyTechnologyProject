@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_find_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="找回密码"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="#99990099"/>
+    <TextView
+        android:layout_marginTop="3dp"
+        android:id="@+id/tv_find_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="#99990099"/>
+
+</LinearLayout>
